@@ -37,6 +37,11 @@ public class HomeController {
 //		rnd.add(new MonteCarlo());
 	}
 
+	@RequestMapping("/")
+	public String first(){
+		return "redirect:/index";
+	}
+
 
 	@RequestMapping("/index")
 	public String index(Map<String, Object> map){
