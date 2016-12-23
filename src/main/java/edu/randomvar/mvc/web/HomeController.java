@@ -38,7 +38,7 @@ public class HomeController {
 	}
 
 
-	@RequestMapping("/index")
+	@RequestMapping("/")
 	public String index(Map<String, Object> map){
 
 		for(GenerateNumbers rnums: rnd){
