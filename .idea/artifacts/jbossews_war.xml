@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jbossews:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="random-var-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="jbossews:war exploded" />
+    </root>
+  </artifact>
+</component>
