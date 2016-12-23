@@ -197,15 +197,11 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
+                <artifactId>maven-war-plugin</artifactId>
                 <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
+                    <webappDirectory>src/main/webapp</webappDirectory>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-    <packaging>war</packaging>
-    <name>randomvar</name>
-
 </project>
