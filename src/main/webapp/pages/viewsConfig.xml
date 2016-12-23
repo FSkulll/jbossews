@@ -5,13 +5,13 @@
 
 
 <tiles-definitions>
-    <definition name="template" template="/WEB-INF/pages/views/shared/_Layout.jsp">
-        <put-attribute name="header" value="/WEB-INF/pages/views/shared/header.jsp" />
-         <put-attribute name="footer" value="/WEB-INF/pages/views/shared/footer.jsp" />
+    <definition name="template" template="/pages/views/shared/_Layout.jsp">
+        <put-attribute name="header" value="/pages/views/shared/header.jsp" />
+         <put-attribute name="footer" value="/pages/views/shared/footer.jsp" />
     </definition>
     <definition name="index" extends="template">
         <put-attribute name="title" value="Index Page"/>
-        <put-attribute name="content" value="/WEB-INF/pages/views/home/index.jsp" />
+        <put-attribute name="content" value="/pages/views/home/index.jsp" />
     </definition>
     <definition name="register" extends="template">
         <put-attribute name="title" value="Register Page"/>
